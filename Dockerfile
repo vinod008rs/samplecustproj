@@ -26,7 +26,7 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --no-interaction --no-ansi
 
 # Copy the Django project code to the container
-COPY CustomerManagementCloud /app/
+COPY CustomerManagement /app/
 
 
 # Expose port 8000 for Gunicorn
