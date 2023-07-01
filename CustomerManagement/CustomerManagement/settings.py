@@ -1,4 +1,5 @@
 import io
+import logging
 import os
 import google.auth
 from google.cloud import secretmanager
@@ -54,7 +55,7 @@ else:
 
 # Default false. True allows default landing pages to be visible
 DEBUG = env("DEBUG", default=False)
-
+logging.info(f"Database url : {env.db()}")
 # Set this value from django-environ
 DATABASES = {"default": env.db()}
 
