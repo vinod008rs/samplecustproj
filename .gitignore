@@ -1,5 +1,5 @@
 .idea
-.env
+CustomerManagement/.env
 *.pyc
 .coverage
 .coverage.*
