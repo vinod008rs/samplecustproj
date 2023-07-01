@@ -1,0 +1,13 @@
+.idea
+.env
+*.pyc
+.coverage
+.coverage.*
+.DS_Store
+htmlcov/
+venv/
+lib/
+
+
+.python-version
+
